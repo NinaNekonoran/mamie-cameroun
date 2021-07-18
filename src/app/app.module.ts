@@ -28,17 +28,17 @@ import {AccordionModule} from 'primeng/accordion';
 import {ToastModule} from 'primeng/toast';
 import { RecipeDetailsMLComponent } from './RECETTE/ITEM/recipe-details-m-l/recipe-details-m-l.component';
 import {RecipeDetailsSComponent} from './RECETTE/ITEM/recipe-details-s/recipe-details-s.component';
-import { PluginLikeFacebookComponent } from './PLUGIN/plugin-like-facebook/plugin-like-facebook.component';
 import { BadgeTypeComponent } from './ITEM_SHARED/badge-type/badge-type.component';
 import { RecipeStepComponent } from './RECETTE/ITEM/recipe-step/recipe-step.component';
 import { RecipeIngredientListComponent } from './RECETTE/ITEM/recipe-ingredient-list/recipe-ingredient-list.component';
 import { DifficultesComponent } from './ITEM_SHARED/difficultes/difficultes.component';
-import { CommentFacebookComponent } from './PLUGIN/comment-facebook/comment-facebook.component';
 import {DialogModule} from 'primeng/dialog';
 import { FooterPresentationComponent } from './FOOTER/footer-presentation/footer-presentation.component';
 import { FooterContactCreditsComponent } from './FOOTER/footer-contact-credits/footer-contact-credits.component';
 import {ScrollTopModule} from 'primeng/scrolltop';
 import { ChipModule } from 'primeng/chip';
+import {DynamicDialogModule} from 'primeng/dynamicdialog';
+import {ProgressSpinnerModule} from 'primeng/progressspinner';
 
 @NgModule({
   declarations: [
@@ -55,14 +55,12 @@ import { ChipModule } from 'primeng/chip';
     RecipeDetailsIngredientComponent,
     RecipeDetailsMLComponent,
     RecipeDetailsSComponent,
-    PluginLikeFacebookComponent,
     BadgeTypeComponent,
     RecipeStepComponent,
     RecipeIngredientListComponent,
     DifficultesComponent,
-    CommentFacebookComponent,
     FooterPresentationComponent,
-    FooterContactCreditsComponent
+    FooterContactCreditsComponent,
   ],
   imports: [
     BrowserModule,
@@ -79,7 +77,9 @@ import { ChipModule } from 'primeng/chip';
     ToastModule,
     DialogModule,
     ScrollTopModule,
-    ChipModule
+    ChipModule,
+    DynamicDialogModule,
+    ProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

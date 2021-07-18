@@ -1,7 +1,6 @@
 <div *ngIf="recipeDetails">
     <div class="p-text-center">
         <h2 class="liste-title p-col-fixed p-mb-0">{{recipeDetails.title}}</h2>
-        <app-plugin-like-facebook class="p-col-fixed p-m-0 p-p-0" [recipe]="recipeDetails" ></app-plugin-like-facebook>
     </div>
     <a [routerLink]="['../../../']" class="back-recipe p-d-flex p-mb-2">
         <button pButton pRipple type="button" icon="pi pi-chevron-left" class="p-button-rounded p-button-warning"></button>
