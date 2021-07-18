@@ -8,11 +8,11 @@
                 <app-recipe-ingredient-list [ingredients]="recipeDetails.ingredients"></app-recipe-ingredient-list>
             </div>
 
-            <p-divider layout="vertical" ></p-divider>
+            <p-divider laayout="vertical" ></p-divider>
 
             <section class="p-col-9 p-m-3">
                 <app-recipe-details-ingredient pCol="p-col-6" [ingredientsImg]="ingredientsImg"></app-recipe-details-ingredient>
-                <img class="resize_fit_center" [src]="recipeDetails.img[0]"/>
+                <img class="resize_fit_center" alt="Image représentant la recette" [src]="'../../../../assets/' + recipeDetails.img[0]"/>
 
                 <div>
                     <app-recipe-details-details [recipe]="recipeDetails "></app-recipe-details-details>
@@ -24,7 +24,7 @@
 
                     <app-recipe-details-step [recipe]="recipeDetails"></app-recipe-details-step>
                 </div>
-                <img *ngIf="recipeDetails.img[1]" class="resize_fit_center" [src]="recipeDetails.img[1]"/>
+                <img *ngIf="recipeDetails.img[1]" class="resize_fit_center" [src]="'../../../../assets/' + recipeDetails.img[1]" alt="Image représentant la recette"/>
                 <article class="p-text-right"><b>BON APPÉTIT</b></article>
             </section>
         </div>
