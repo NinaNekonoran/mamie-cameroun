@@ -3,9 +3,7 @@ name: GitHub Actions Deploy WebSite
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ "**" ]
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
