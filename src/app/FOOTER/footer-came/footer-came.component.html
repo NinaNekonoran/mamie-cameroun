@@ -1,7 +1,9 @@
 <div *ngIf="mobile" class="footer-background ">
 
     <div class="p-d-flex">
-        <img class="p-col-4 resize_fit" src="https://github.com/NinaNekonoran/recette/blob/dev/src/assets/acc.jpg?raw=true"/>
+        <img class="p-col-4 resize_fit"
+             alt="Photo de Mamie Cameroun"
+             src="../../../assets/acc.jpg"/>
         <div class="p-col-8 p-p-4">
             <app-footer-presentation></app-footer-presentation>
         </div>
@@ -13,7 +15,10 @@
 </div>
 
 <div *ngIf="!mobile" class="footer-background p-d-flex">
-    <img class=" p-m-5 p-col-align-center resize_fit" src="https://github.com/NinaNekonoran/recette/blob/dev/src/assets/acc.jpg?raw=true" height="144" width="108"/>
+    <img class=" p-m-5 p-col-align-center resize_fit"
+         alt="Photo de Mamie Cameroun"
+         src="../../../assets/acc.jpg"
+         height="144" width="108"/>
 
     <div class="p-col-5 p-p-5">
         <app-footer-presentation></app-footer-presentation>

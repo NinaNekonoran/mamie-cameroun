@@ -15,14 +15,14 @@ const recipes = [
         time_cuisson : '25 min',
         description : 'Une sauce simple facile à cuisiner et riche en saveur.',
         img : [
-            'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000415.JPG?raw=true',
-            'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000397.JPG?raw=true'
+            'P1000415.JPG',
+            'P1000397.JPG'
         ],
         ingredients : [
-            {name : 'Gros oignons', amount : '6', img: 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000398.JPG?raw=true'},
+            {name : 'Gros oignons', amount : '6', img: 'P1000398.JPG'},
             {name : 'Tomates', amount : '6'},
-            {name : 'Branche de basilic', amount : '1', img : 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000401.JPG?raw=true'},
-            {name : 'Citron vert', amount : '1', img : 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000404.JPG?raw=true'},
+            {name : 'Branche de basilic', amount : '1', img : 'P1000401.JPG'},
+            {name : 'Citron vert', amount : '1', img : 'P1000404.JPG'},
             {name : 'Gousses d\'ail', amount : '2'},
             {name : 'Huile d\'olive', amount : '5 cs'},
             {name : 'Cube maggi végétal', amount : '1'},
@@ -56,16 +56,16 @@ const recipes = [
         time_cuisson : '20 min',
         description : 'Très facile à réaliser, la purée de piment est une sauce très piquante utilisée pour épicer les plats de viandes, de poissons, de légumes, ect...',
         img : [
-            'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000411.jpg?raw=true',
-            'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000383.JPG?raw=true'
+            'P1000411.jpg',
+            'P1000383.JPG'
         ],
         ingredients : [
-            {name : 'Gros piments rouges', amount : '6', img : 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000395.JPG?raw=true'},
-            {name : 'Tomates', amount : '6', img: 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000391.JPG?raw=true'},
+            {name : 'Gros piments rouges', amount : '6', img : 'P1000395.JPG'},
+            {name : 'Tomates', amount : '6', img: 'P1000391.JPG'},
             {name : 'Gousses d\'ail', amount : '3'},
             {name : 'Morceau de gingembre', amount : '1'},
-            {name : 'Oignon', amount : '1', img : 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000385.JPG?raw=true'},
-            {or_name : 'Pébè', name : 'Clous de girofle', amount : '6', img: 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/P1000389.JPG?raw=true'},
+            {name : 'Oignon', amount : '1', img : 'P1000385.JPG'},
+            {or_name : 'Pébè', name : 'Clous de girofle', amount : '6', img: 'P1000389.JPG'},
             {name : 'Huile végétale', amount : '5 cs'},
             {name : 'Cube maggi végétal', amount : '1'},
             {name : '[Sel]'}
@@ -90,10 +90,10 @@ const recipes = [
         time_cuisson : '20 min',
         description : 'Le safou ou (prune Africaine) est préparé comme un légume, mais c\'est un fruit d\'Afrique, il a un noyau et on ne mange que sa chair.',
         img : [
-            'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1614541536120.jpg?raw=true'
+            '1614541536120.jpg'
         ],
         ingredients : [
-            {name : 'Safous', amount : '6', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1614541536105.jpg?raw=true'},
+            {name : 'Safous', amount : '6', img: '1614541536105.jpg'},
             {name : 'Huile végétale', amount : '1 cs'},
             {name : 'Eau', amount : '1 cs'},
             {name : '[Sel]'}
@@ -119,11 +119,11 @@ const recipes = [
         time_cuisson : '30 min',
         description : 'Le plantain pilé est un accompagnement de sauce, c\'est une pâte épaisse simple à réaliser, il suffit d\'avoir un mortier et un pilon.',
         img : [
-            'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000356.JPG?raw=true'
+            'P1000356.JPG'
         ],
         ingredients : [
-            {name : 'Bananes plantains verts', amount : '3', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000337.JPG?raw=true'},
-            {name : 'Bananes plantains jaunes', amount : '2', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000337.JPG?raw=true'}
+            {name : 'Bananes plantains verts', amount : '3', img: 'P1000337.JPG'},
+            {name : 'Bananes plantains jaunes', amount : '2', img: 'P1000337.JPG'}
         ],
         steps : [
             'Lavez les plantains, mettez-les dans une bassine d\'eau froide, coupez les extrémités, et coupez chaque banane en deux, épluchez-les dans de l\'eau à l\'aide d\'un couteau, raclez le dessus pour enlever leur couche supérieure contenant les fibres, rincez.',
@@ -148,16 +148,16 @@ const recipes = [
         time_cuisson : '1h30',
         description : 'C\'est un plat délicieux, une sauce onctueuse à base des arachides grillées et écrasées.',
         img : [
-            'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000365.JPG?raw=true',
-            'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000316.JPG?raw=true'
+            'P1000365.JPG',
+            'P1000316.JPG'
         ],
         ingredients : [
-            {name : 'Poulet fermier', amount : '1,5 kg', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000334.JPG?raw=true'},
-            {name : 'Pâte d\'arachide', amount : '5 cs', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000329.JPG?raw=true'},
-            {name : 'Tomates', amount : '6', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000325.jpg?raw=true'},
+            {name : 'Poulet fermier', amount : '1,5 kg', img: 'P1000334.JPG'},
+            {name : 'Pâte d\'arachide', amount : '5 cs', img: 'P1000329.JPG'},
+            {name : 'Tomates', amount : '6', img: 'P1000325.jpg'},
             {name : 'Oignons', amount : '2'},
             {name : 'Gousses d\'ail', amount : '2'},
-            {name : 'Petit morceaux de gingembre', amount : '1', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000331.JPG?raw=true'},
+            {name : 'Petit morceaux de gingembre', amount : '1', img: 'P1000331.JPG'},
             {name : 'Huile végétale', amount : '5 cs'},
             {name : '[Cube maggi]', amount : '1'},
             {name : 'Sel'},
@@ -186,10 +186,10 @@ const recipes = [
         time_preparation : '10 min',
         time_cuisson : '20 min',
         description : 'C\'est une pâte solide, réalisée à partir de deux farines: farine de maïs et farine de manioc, elle se mange avec une sauce en accompagnement.',
-        img : ['https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000299.JPG?raw=true'],
+        img : ['P1000299.JPG'],
         ingredients : [
-            {name : 'Farine de maïs', amount : '200g', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000296.JPG?raw=true'},
-            {name : 'Farine de manioc', amount : '100g', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000293.JPG?raw=true'},
+            {name : 'Farine de maïs', amount : '200g', img: 'P1000296.JPG'},
+            {name : 'Farine de manioc', amount : '100g', img: 'P1000293.JPG'},
             {name : 'Eau chaude'}
         ],
         steps : [
@@ -212,9 +212,9 @@ const recipes = [
         time_preparation : '20 min',
         time_cuisson : '25 min',
         description : 'Le manioc frais est un légume, un tubercule farineux apprécié et consommé généralement bouilli, c\'est un aliment très nourrissant.',
-        img : [ 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1614201716299.jpg?raw=true'],
+        img : [ '1614201716299.jpg'],
         ingredients : [
-            {name : 'Manioc frais', amount : '1 kg', img : 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1614201716342.jpg?raw=true'},
+            {name : 'Manioc frais', amount : '1 kg', img : '1614201716342.jpg'},
             {name : '[sel]'}
         ],
         steps : [
@@ -237,7 +237,7 @@ const recipes = [
         time_preparation : '30 min',
         time_cuisson : '2h',
         description : 'Les feuilles de manioc, ou purée de feuilles de manioc ou (pkwem) chez les bétis au Cameroun, est un plat très nourrissant. On peut  le préparer sans ou avec sel en ajoutant la viande le poisson ou de la pâte d\'arachide, ect...',
-        img : ['https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1614201716313.jpg?raw=true'],
+        img : ['1614201716313.jpg'],
         ingredients : [
             // tslint:disable-next-line:max-line-length
             {name : 'Paquets de feuilles de manioc frais', amount : '3', or_name : 'Sachets de feuilles de manioc surgelés', or_amount : '2'},
@@ -267,18 +267,18 @@ const recipes = [
         time_cuisson : '2h30',
         description : 'La sauce gombo est une sauce gluante, à base de gombos frais. Elle accompagne souvent  les plats de viandes,  de crabes, de crevettes, de poissons fumés, ect... Elle est l\'une des sauces les plus célèbres d\'Afrique.',
         img : [
-            'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000289.JPG?raw=true',
-            'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000306.JPG?raw=true'
+            'P1000289.JPG',
+            'P1000306.JPG'
         ],
         ingredients : [
-            {name : 'Queue de boeuf', amount : '1kg', img : 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000272.JPG?raw=true'},
-            {name : 'Gombos frais', amount : '200g', img : 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000271.JPG?raw=true'},
-            {name : 'Oignons', amount : '2', img : 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000267.JPG?raw=true'},
-            {name : 'Gousses d\'ail', amount : '4', img: 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000265.jpg?raw=true'},
-            {name : 'Tomates', amount : '2', img : 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000268.jpg?raw=true'},
+            {name : 'Queue de boeuf', amount : '1kg', img : 'P1000272.JPG'},
+            {name : 'Gombos frais', amount : '200g', img : 'P1000271.JPG'},
+            {name : 'Oignons', amount : '2', img : 'P1000267.JPG'},
+            {name : 'Gousses d\'ail', amount : '4', img: 'P1000265.jpg'},
+            {name : 'Tomates', amount : '2', img : 'P1000268.jpg'},
             {name : 'Huile végétale', amount : '3 cs'},
             // tslint:disable-next-line:max-line-length
-            {name : '[Cube maggi]', amount : '1', img : 'https://github.com/NinaNekonoran/recette/blob/dev/src/assets/P1000275.jpg?raw=true'},
+            {name : '[Cube maggi]', amount : '1', img : 'P1000275.jpg'},
             {name : 'Sel'},
             {name : 'Poivre'},
         ],
@@ -304,20 +304,20 @@ const recipes = [
         time_preparation : '20 min',
         time_cuisson : '25 min',
         description : 'Le bouillon de poisson appelé au Cameroun Pèpè Soupe est une recette simple, pimentée, très épicée, elle est délicieuse. Choisissez le poisson à chair ferme: Le bar, le capitaine, le mâchoiron, la carpe, ou le maquereau, évitez les poissons avec beaucoup d\'arrêtes. Vous pouvez remplacer le piment avec du poivre selon votre goût. ',
-        img : ['https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1613750628687.jpg?raw=true'],
+        img : ['1613750628687.jpg'],
         ingredients : [
             {name : 'Maquereaux', amount : '2'},
             {name : 'Tomates', amount : '3'},
-            {name : 'Gingembre frais', amount : '10g', img : 'https://image.freepik.com/photos-gratuite/gingembre-doux-amer_144627-12044.jpg'},
+            {name : 'Gingembre frais', amount : '10g'},
             {name : 'Oignon', amount : '1'},
             {name : 'Gousse d\'ail', amount : '1'},
-            {name : 'Branche de basilic', amount : '1', img: 'https://image.freepik.com/photos-gratuite/gros-plan-basilic-savoureux-mise-au-point-selective_1220-1501.jpg'},
-            {name : 'Branche de blanc de poireau', amount : '1', img: 'https://image.freepik.com/photos-gratuite/poireau-surface-blanche_144627-45166.jpg'},
+            {name : 'Branche de basilic', amount : '1'},
+            {name : 'Branche de blanc de poireau', amount : '1'},
             {name : 'Citron', amount : '1'},
             {name : '[Piment frais]', amount : '1'},
             {name : 'Cuillère d\'huile d\'olive', amount : '2'},
-            {name : '[Njansang]', amount : '20g', img: 'https://i.pinimg.com/originals/1b/6f/7b/1b6f7be5b247f2f54b367d4da38f83f5.jpg'},
-            {name : '[Pèbé]', amount : '10g', img: 'https://afritibi.com/wp-content/uploads/2017/02/noix-de-pebe.png'},
+            {name : '[Njansang]', amount : '20g'},
+            {name : '[Pèbé]', amount : '10g'},
             {name : 'Sel'},
             {name : 'Poivre'},
         ],
@@ -343,11 +343,11 @@ const recipes = [
         time_preparation : '40 min',
         time_cuisson : '1 h 30 min',
         description : 'Le Sanga est un met composé de légumes (les feuilles de folon, de zom, d\'aubergines, ou les épinards), de maïs en grain doux frais cuits avec du jus de noix de palme et mangé avec ou sans sucre, il est apprécié dans le sud  et presque partout au Cameroun, on peut le consommer en entrée, ou en plat principal.',
-        img : ['https://github.com/NinaNekonoran/recette/blob/dev/src/assets/1613750628714.jpg?raw=true'],
+        img : ['1613750628714.jpg'],
         ingredients : [
-            {name : 'Folon frais', amount : '1kg ', img: 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/1616320439297.jpg?raw=true'},
-            {name : 'Epis de maïs doux frais', amount : '8-10', img : 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/1616320439306.jpg?raw=true'},
-            {name : 'Boîte de 500g de jus de noix de palme(sauce graine)', amount : '1', img : 'https://github.com/NinaNekonoran/mamie-cameroun/blob/dev/src/assets/1616320439289.jpg?raw=true'}
+            {name : 'Folon frais', amount : '1kg ', img: '1616320439297.jpg'},
+            {name : 'Epis de maïs doux frais', amount : '8-10', img : '1616320439306.jpg'},
+            {name : 'Boîte de 500g de jus de noix de palme(sauce graine)', amount : '1', img : '1616320439289.jpg'}
         ],
         steps : [
             'Triez, lavez, égouttez, coupez le <b>folon</b> en deux',

@@ -9,7 +9,7 @@
         <p-divider></p-divider>
 
         <section class="p-d-flex">
-            <img class="p-col-6  resize_fit_center_small" [src]="recipeDetails.img[0]"/>
+            <img class="p-col-6  resize_fit_center_small" [src]="'../../../../assets/' + recipeDetails.img[0]" alt="Image représentant la recette"/>
 
             <div class="p-col-5" *ngIf="recipeDetails.ingredients">
                 <app-recipe-ingredient-list [ingredients]="recipeDetails.ingredients"></app-recipe-ingredient-list>
@@ -33,7 +33,7 @@
                     </article>
                     <app-recipe-details-step [recipe]="recipeDetails"></app-recipe-details-step>
                 </div>
-        <img *ngIf="recipeDetails.img[1]" class="resize_fit_center p-p-3" [src]="recipeDetails.img[1]"/>
+        <img *ngIf="recipeDetails.img[1]" class="resize_fit_center p-p-3" [src]="'../../../../assets/' + recipeDetails.img[1]" alt="Image représentant la recette"/>
 
         <article class="p-text-right p-mb-4 p-mr-5"><b>BON APPÉTIT</b></article>
 
