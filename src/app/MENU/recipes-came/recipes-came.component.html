@@ -1,11 +1,11 @@
-<section class="recipes-section cursor">
+<section class="recipes-section ">
     <h2 class="p-text-center liste-title">Liste des recettes</h2>
 
     <p-dataView layout="grid" [value]="recipes" [paginator]="true" [rows]="15">
 
         <ng-template let-recipe pTemplate="gridItem">
-            <app-recipe-fiche-came *ngIf="mobile" [recipe]="recipe" [full]="true" ></app-recipe-fiche-came>
-            <app-recipe-fiche-came *ngIf="!mobile" [recipe]="recipe" [full]="false" ></app-recipe-fiche-came>
+            <app-recipe-fiche-came *ngIf="mobile && recipe.id!=0" [recipe]="recipe" [full]="true" ></app-recipe-fiche-came>
+            <app-recipe-fiche-came *ngIf="!mobile && recipe.id!=0" [recipe]="recipe" [full]="false" ></app-recipe-fiche-came>
         </ng-template>
 
         <ng-template let-item pTemplate="paginatordropdownitem">
@@ -13,6 +13,4 @@
         </ng-template>
     </p-dataView>
 </section>
-
-
 

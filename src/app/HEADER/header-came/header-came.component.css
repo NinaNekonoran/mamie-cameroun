@@ -1,36 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-.header-background-image{
+.header-background-image-high{
     height: 350px;
     width: 100%;
-    background: url(../../../assets/world.png) repeat  #FCD116;
+    background: url(../../../assets/world.png)  #FCD116;
     background-size: 60%;
-    animation: animation 100s linear infinite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    /*animation: animation 100s linear infinite;*/
 }
 
+.header-background-image-small{
+    height: 350px;
+    width: 100%;
+    background-color: #FCD116;
+}
 
 @keyframes animation {
     100% {
         background-position: 3000px 0px;
     }
 }
-.header-title {
-    position : absolute;
+.header-title-high {
     font-family: 'Dancing Script', cursive;
     font-size: 4em;
-    padding-top: 0.8em;
-    text-align: center;
-    width: 100%;
     color: #333;
     text-shadow: 0.1em 0.05em 0.05em #FFFF;
     z-index: 1;
+    margin: 0;
+
 }
 
+.subtitle{
+    margin: 0;
+}
+
+.header-background-image-high .bloc-title{
+    min-height: 350px;
+    padding-top: 100px;
+}
+.header-background-image-small .bloc-title{
+    min-height: 350px;
+    padding-top: 45px;
+}
+.header-title-small {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    color: #333;
+    text-shadow: 0.1em 0.05em 0.05em #FFFF;
+    z-index: 1;
+    margin: 0;
+
+}
+.header-title-small p, .header-title-high p {
+    margin-bottom: 0;
+}
 .header-image{
     height: 200px;
     margin: 65px 0 0 10%;
 }
 
-.header-title {
+.animation {
     animation: text-shadow 2s ease-in-out alternate;
 }
 
@@ -79,4 +109,9 @@
                 0 0 0 #007A5E,
                 0 0 0 #FFFFFF;
     }
+}
+
+.logo-insta{
+    width: 100px;
+    margin-left: -30px;
 }
