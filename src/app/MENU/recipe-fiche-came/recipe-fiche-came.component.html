@@ -2,7 +2,7 @@
     <p-card [routerLink]="['/recipe', recipe.id, recipe.title ]"
             [header]="recipe.title" [style]="{width: full ? '100%': '200px',height: '38.2em'}" styleClass="p-card-shadow">
         <ng-template pTemplate="header">
-            <img class="resize_fit_center" alt="Card" [src]="recipe.img[0]">
+            <img class="resize_fit_center" alt="Image représentant un plat" [src]="'../../../../assets/' + recipe.img[0]">
         </ng-template>
 
         <p-divider class="p-m-0"></p-divider>

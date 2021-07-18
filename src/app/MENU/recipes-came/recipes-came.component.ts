@@ -23,7 +23,7 @@ export class RecipesCameComponent implements OnInit {
   }
 
   private isMoblie() {
-    if (window.innerWidth < 600) { // 768px portrait
+    if (window.innerWidth < 600) {
       this.mobile = true;
     }
     else{
