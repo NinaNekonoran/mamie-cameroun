@@ -8,10 +8,8 @@ import { recipes } from '../../recipes';
 })
 export class RecipesCameComponent implements OnInit {
 
-  constructor() {}
-
+  constructor() { }
   mobile;
-  recipes = recipes;
 
   ngOnInit(): void {
     this.isMoblie();
@@ -30,4 +28,6 @@ export class RecipesCameComponent implements OnInit {
       this.mobile = false;
     }
   }
+
+  recipes = recipes;
 }

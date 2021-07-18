@@ -1,4 +1,5 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {MenuItem} from 'primeng/api';
 import {title} from '../../recipes';
 
 @Component({
@@ -10,26 +11,18 @@ export class HeaderCameComponent implements OnInit {
 
   constructor() { }
 
-  title = title;
-  mobile: boolean;
+  items: MenuItem[];
+  title = title;g
 
-  ngOnInit(): void {
-    this.isMoblie();
-  }
+  activeItem: MenuItem;
 
+  ngOnInit() {
+    
+    this.items = [
+      {label: 'Accueil', icon: 'pi pi-fw pi-home', routerLink: ['']}
+    ];
 
-  @HostListener('window:resize', ['$event'])
-  onResize(event): void{
-    this.isMoblie();
-  }
-
-  private isMoblie(): void {
-    if (window.innerWidth < 600) { // 768px portrait
-      this.mobile = true;
-    }
-    else{
-      this.mobile = false;
-    }
+    this.activeItem = this.items[0];
   }
 
 }
