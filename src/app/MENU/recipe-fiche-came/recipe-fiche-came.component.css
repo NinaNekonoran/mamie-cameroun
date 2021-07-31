@@ -7,10 +7,7 @@
 :host >>> .p-card{
     cursor: pointer;
 }
-/*
-:host >>> .p-card .p-card-body{
-    height: 1em;
-}*/
+
 :host >>> .p-card .p-card-content{
     padding: 0;
 }
