@@ -48,7 +48,6 @@ const recipes = [
         difficult : 1,
         type : TYPE_RECIPE.SAUCE,
     },
-    {id: 0},
     {
         id : 11,
         title : 'PUREE DE PIMENT',

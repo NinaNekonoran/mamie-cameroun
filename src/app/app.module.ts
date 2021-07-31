@@ -39,6 +39,7 @@ import {ScrollTopModule} from 'primeng/scrolltop';
 import { ChipModule } from 'primeng/chip';
 import {DynamicDialogModule} from 'primeng/dynamicdialog';
 import {ProgressSpinnerModule} from 'primeng/progressspinner';
+import { SpinnerComponent } from './ITEM_SHARED/spiner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import {ProgressSpinnerModule} from 'primeng/progressspinner';
     DifficultesComponent,
     FooterPresentationComponent,
     FooterContactCreditsComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import {Component, HostListener, Input, OnInit, Output} from '@angular/core';
+import {Component, HostListener, Input, OnInit, Output, EventEmitter} from '@angular/core';
 import {difficultImage} from '../../recipes';
 @Component({
   selector: 'app-recipe-fiche-came',
@@ -11,9 +11,15 @@ export class RecipeFicheCameComponent implements OnInit {
   recipe;
   @Input()
   full: boolean;
+  @Output()
+  hideSpiner = new EventEmitter<any>();
 
   difficultImage = difficultImage;
 
   ngOnInit(): void {
+  }
+
+  hideLoader(){
+    this.hideSpiner.emit(null);
   }
 }

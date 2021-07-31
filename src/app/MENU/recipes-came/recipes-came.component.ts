@@ -12,9 +12,14 @@ export class RecipesCameComponent implements OnInit {
 
   mobile;
   recipes = recipes;
+  load: number = recipes.length;
 
   ngOnInit(): void {
     this.isMoblie();
+  }
+
+  hideSpiner(event: any){
+    this.load = this.load - 1;
   }
 
   @HostListener('window:resize', ['$event'])
